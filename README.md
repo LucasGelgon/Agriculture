@@ -7,4 +7,4 @@ Ses membres sont :
 - Simon Jehenne-Cousty
 - Léa Fargeot
 - Lucas Gelgon
-- Victoria
+- Victoria Tandamba
