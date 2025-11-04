@@ -1,11 +1,19 @@
+-- Les tables des dimensions periode, zone_climatique et dataset_fait_2 (qui est temporaire) sont remplies grâce à des INSERT
+-- générés à l'aide du programme python "script_creation_entrepot.sql"
+
+-- INSERTION DES DONNÉES DEPUIS LA TABLE TEMPORAIRE dataset_fait_1
+
+
 -- INSERTION DES DONNÉES DEPUIS LA TABLE TEMPORAIRE dataset_fait_2
 
+-- Table de la dimension : region
 INSERT INTO region (code_region, nom_region)
 SELECT code_region, region
 FROM dataset_fait_2
 GROUP BY code_region, region
 ;
 
+-- Table de la dimension : departement
 INSERT INTO Departement (code_departement, nom_departement, code_region, id_zone_climatique)
 SELECT f2.code_departement, f2.departement, f2.code_region, z.id_zone_climatique
 FROM dataset_fait_2 f2, zone_climatique z
@@ -13,10 +21,16 @@ WHERE z.nom_zone = f2.zone_climatique
 GROUP BY f2.code_departement, f2.departement, f2.code_region, z.id_zone_climatique
 ;
 
+-- Table du Fait n°2 : mesure_surfaces_agricoles_bio
 INSERT INTO mesure_surfaces_agricoles_bio (annee, code_departement, nb_nouveaux_exploitants, surface_conversion, surface_abandonnee)
 SELECT annee, code_departement, nb_nouveaux_exploitants, surface_conversion, surface_abandonnee
 FROM dataset_fait_2
 ;
+
+-- INSERTION DES DONNÉES DEPUIS LA TABLE TEMPORAIRE dataset_fait_3
+
+
+-- TESTS AVEC LES REQUÊTES RÉPONDANT AUX BESOIN DU FAIT N°1
 
 
 -- TESTS AVEC LES REQUÊTES RÉPONDANT AUX BESOIN DU FAIT N°2
@@ -46,3 +60,5 @@ WHERE m.code_departement = d.code_departement
 GROUP BY d.code_departement
 ORDER BY surface_abandonnee ASC -- On utilise l'ordre croissant car les surfaces sont négatives : les plus grandes surfaces, sont donc les plus petites valeurs
 LIMIT 5;
+
+-- TESTS AVEC LES REQUÊTES RÉPONDANT AUX BESOIN DU FAIT N°3
