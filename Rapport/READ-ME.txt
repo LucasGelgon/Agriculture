@@ -1,0 +1,20 @@
+Pour la phase 3 du projet Data Science de l'équipe projet n°1, vous trouverez l'ensemble de documents suivant :
+
+- Le rapport de la phase n°3 : "Rapport phase 3.pdf"
+
+- L'ensemble des workflows KNIME :
+	-> "ETL JD 1.knwf"
+	-> "ETL JD 2.knwf"
+	-> "ETL JD 3.knwf"
+	-> "ETL JD 4.knwf"
+	-> "ETL JD 5.knwf"
+	-> "Fait 1.knwf"
+	-> "Fait 2.knwf"
+	-> "Fait 3.knwf"
+	-> "MASTER JOB.knwf"
+	-> "extract_rotation_agriculture_globale.knwf"
+
+- Les scripts python qui ont été écrits et utilisés à différentes étapes de la phase n°3 :
+	-> "script 1 SIMON"
+	-> "script 2 SIMON"
+	-> "creation_insert.py" (pour la création des INSERT INTO de l'entrepôt)

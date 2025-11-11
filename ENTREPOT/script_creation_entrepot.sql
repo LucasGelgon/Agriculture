@@ -26,13 +26,13 @@ CREATE TABLE Departement (
 );
 
 CREATE TABLE Groupe_culture (
-	id_groupe_culture INT PRIMARY KEY NOT NULL,
+	id_groupe_culture SERIAL PRIMARY KEY NOT NULL,
 	nom_groupe_culture VARCHAR(50) NOT NULL	
 );
 
 CREATE TABLE Culture (
 	id_culture INT PRIMARY KEY NOT NULL,
-	nom_culture VARCHAR(50) NOT NULL,
+	nom_culture VARCHAR(75) NOT NULL,
 	id_groupe_culture INT,
 	FOREIGN KEY (id_groupe_culture) REFERENCES Groupe_culture(id_groupe_culture)
 );
