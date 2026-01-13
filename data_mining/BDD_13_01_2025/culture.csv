@@ -1,0 +1,167 @@
+id_culture,nom_culture,id_groupe_culture
+69,Lavandin,4
+47,"Clémentines, mandarines",3
+153,Haricots à écosser et demi-secs (grain),5
+163,Prune d'ente et hybride,3
+64,Haricots secs (y compris semences),1
+151,"Goyave, Goyavier",3
+128,Autres poires d’été,3
+145,"Corossol, pomme cannelle",3
+143,Colza grain de printemps et navette,1
+83,Maïs semence,1
+24,Autres salades,5
+162,Poires d'hiver,3
+86,Navet potager,5
+72,Lin oléagineux,1
+87,Nectarine et brugnon,3
+138,Chayote ou christophine,5
+109,Pêche,3
+57,Figues,3
+99,Plants certifiés de pommes de terre,6
+88,Noisettes,3
+59,Framboises,3
+97,Persil,5
+9,Autres agrumes,3
+30,Betterave potagère,5
+117,Sorgho grain,1
+139,Chicorée à café,4
+123,Truffes,5
+68,Lavande,4
+170,Oignon blanc,5
+106,Pommes à cidre,3
+74,Lupin doux,1
+42,Chicorées frisées et scaroles,5
+110,Radis,5
+103,Pois protéagineux,1
+126,Autres choux,5
+33,Blé tendre d'hiver et épeautre,1
+31,Bettes et cardes,5
+62,Groseilles,3
+17,Autres oléagineux (hors chanvre),1
+27,Avoine de printemps,1
+38,Carottes pour le frais,5
+18,Autres petits fruits,3
+104,"Poivron, piment",5
+169,Pommes de terre de conservation ou demi-saison,6
+152,Granny Smith,3
+44,Choux-fleurs,5
+121,Tournesol,1
+20,Autres plantes à fibre,4
+165,Reine-claude,3
+82,Maïs grain irrigué,1
+15,Autres fruits à pépins,3
+122,Triticale,1
+105,Pommes de terre de féculerie,6
+10,Autres cultures industrielles,4
+65,Haricots verts (y compris haricots beurre),5
+127,Autres fruits à noyaux,3
+144,Concombre sous serres,5
+132,Avoine d'hiver,1
+26,Avocat,3
+157,Maïs grain non irrigué,1
+135,Blé dur d'hiver,1
+40,Champignons cultivés,5
+77,Mangue,3
+85,Mélanges de céréales,1
+55,Endives racines,5
+155,Jules Guyot,3
+22,Autres prunes,3
+98,Petits pois,5
+140,Choux brocolis à jets,5
+3,Ail total (en vert et en sec),5
+91,Oignon de couleur,5
+102,Pois chiches (y compris semences),1
+150,Gombo,5
+142,Choux à choucroute,5
+111,Riz indica,1
+19,Autres plantes médicinales et à parfum,4
+48,Colza grain d'hiver,1
+78,Manioc,6
+160,Orge d'hiver et escourgeon,1
+14,Autres fruits à coques,3
+100,Poireaux,5
+71,"Letchi, longani, ramboutan",3
+58,Fraises en plein air,3
+28,Bananes fruits,3
+80,Maïs doux,1
+76,Légumes à cosse d'origine tropicale,5
+95,"Pamplemousse, chadèque, pomelo et hybrides",3
+21,Autres protéagineux,1
+49,Concombre en plein air,5
+41,Chanvre textile et industriel (yc semences),4
+168,William's,3
+119,Tomates plein air pour le frais,5
+75,Luzerne pour déshydratation,2
+66,Houblon en production,4
+129,Autres pommes,3
+158,Mirabelle,3
+93,Oranger et hybrides,3
+60,Féveroles et fèves,1
+6,Artichauts,5
+70,Lentilles (y compris semences),1
+171,Pommes de terre primeurs ou nouvelles,6
+8,Aubergines,5
+37,Carottes pour l'industrie,5
+125,Abricot pays ou mamey,3
+61,Griottes & autres cerises,3
+53,Céleris branches,5
+43,Chou fourrager,2
+137,Cantaloups et autres melons sous serres,5
+101,Poires d'automne,3
+45,Châtaignes,3
+134,Bigarreau,3
+114,Salsifis et scorsonère,5
+149,Golden,3
+39,Cassis et myrtilles,3
+167,Tomates plein air pour l'industrie,5
+118,Tabac,4
+25,Autres tubercules,6
+56,Epinards,5
+161,Pavie,3
+54,Echalote,5
+7,Asperges en production,5
+11,Autres céréales non mélangées,1
+13,Autres fruits tropicaux,3
+141,Choux de Bruxelles,5
+79,"Maracuja, fruits de la passion, grenadille",3
+67,Laitues,5
+124,Vanille,4
+23,Autres racines ou tubercules fourragères,2
+51,Cresson,5
+29,Betterave industrielle,4
+32,Blé dur de printemps,1
+116,Soja,1
+89,Noix,3
+5,Ananas,3
+73,Lin textile,4
+35,Canne à sucre,4
+12,Autres fourrages annuels,2
+36,Cantaloups et autres melons en plein air,5
+164,Quetsche,3
+94,Orge de printemps,1
+92,Olive,3
+52,Céleri rave,5
+81,Maïs fourrage et ensilage (plante entière) irrigué,2
+136,Brèdes,5
+63,Géranium (pelargonium ou geranium),4
+2,Actinidia (Kiwi),3
+84,Mâche,5
+16,Autres légumes,5
+4,Amandes,3
+148,Gala,3
+154,Igname,6
+50,Courgette,5
+159,Mélange de pois,1
+115,Seigle,1
+146,Endives chicons,5
+166,Tomate sous serres,5
+156,Maïs fourrage et ensilage (plante entière) non irrigué,2
+90,Noix de coco,3
+34,Blé tendre de printemps,1
+107,"Potirons, courges, citrouilles, giraumon",5
+131,Autres riz (Japonica),1
+1,Abricots,3
+46,"Citrons, limes, combavas",3
+147,Fraises sous serres,3
+133,Banane plantain,3
+96,Pastèque,3
